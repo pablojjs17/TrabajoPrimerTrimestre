@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragments.InfoFragment"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="REGISTRAR INCIDENCIAS" />
+
+        <EditText
+            android:id="@+id/campoDNI"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="42dp"
+            android:hint="DNI" />
+
+        <EditText
+            android:id="@+id/campoFechaIncidencia"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/campoDNI"
+            android:hint="Fecha incidencia" />
+
+        <EditText
+            android:id="@+id/campoObservaciones"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/campoFechaIncidencia"
+            android:hint="Observaciones" />
+
+        <EditText
+            android:id="@+id/campoDniInformatico"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/campoObservaciones"
+            android:hint="Dni Informatico" />
+
+        <EditText
+            android:id="@+id/campoEstadoIncidencia"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/campoDniInformatico"
+            android:hint="Estado" />
+
+        <EditText
+            android:id="@+id/campoFechaResolucion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/campoEstadoIncidencia"
+            android:hint="Fecha resolucion" />
+
+        <EditText
+            android:id="@+id/campoObservacionesInformatico"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/campoFechaResolucion"
+            android:hint="Observaciones informatico" />
+
+
+        <Button
+            android:id="@+id/button_registrar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="50dp"
+            android:text="Registrar " />
+
+    </RelativeLayout>
+</FrameLayout>

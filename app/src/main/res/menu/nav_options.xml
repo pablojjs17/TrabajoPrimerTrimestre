@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/menu_inicio"
+            android:icon="@android:drawable/ic_menu_info_details"
+            android:title="Inicio"/>
+
+        <item
+            android:id="@+id/menu_mail"
+            android:icon="@android:drawable/ic_menu_info_details"
+            android:title="Lista Usuarios"/>
+        <item
+            android:id="@+id/menu_alert"
+            android:icon="@android:drawable/ic_dialog_alert"
+            android:title="Lista Incidencias"/>
+        <item
+            android:id="@+id/menu_info"
+            android:icon="@android:drawable/ic_dialog_info"
+            android:title="Alta Usuarios"/>
+        <item
+            android:id="@+id/menu_gestionIncidencias"
+            android:icon="@android:drawable/ic_dialog_info"
+            android:title="Alta Incidencias"/>
+    </group>
+    <item android:title="Otras Opciones">
+        <menu>
+            <item
+                android:id="@+id/menu_opcion_1"
+                android:icon="@android:drawable/ic_dialog_dialer"
+                android:title="Opcion 1"/>
+            <item
+                android:id="@+id/menu_opcion_2"
+                android:icon="@android:drawable/ic_dialog_dialer"
+                android:title="Opcion 2"/>
+        </menu>
+    </item>
+</menu>
